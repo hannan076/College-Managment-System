@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#login{
+    margin-left: 230px;
+}
+#body{
+  background-color: rgb(16, 16, 39);
+  color: white;
+}
+   /* login page */
+.main_login{
+    margin-top: 35px;
+    text-align: center;  
+}
+.signup{
+    margin-top: 260px;
+    font-weight: bold;
+}
+.mainhead{
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#btn{
+    border: 3px rgb(16, 16, 39) solid;
+    border-radius: 50px;
+}
+.sitename1{
+     color: rgb(255, 94, 0);
+}

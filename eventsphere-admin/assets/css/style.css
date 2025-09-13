@@ -1,0 +1,65 @@
+:root {
+    --bg: #0b0b0b;
+    --accent: #ff8200;
+    --muted: #cfcfcf;
+}
+
+body {
+    background: var(--bg);
+    color: var(--muted);
+    font-family: Arial;
+    margin: 0
+}
+
+.sidebar {
+    width: 220px;
+    background: #111;
+    height: 100vh;
+    position: fixed;
+    padding: 1rem
+}
+
+.container {
+    margin-left: 240px;
+    padding: 1rem
+}
+
+.brand {
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 8px
+}
+
+.btn {
+    background: var(--accent);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #0b0b0b;
+    color: var(--muted)
+}
+
+.login-card {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 2rem;
+    background: #111;
+    border-radius: 8px
+}
